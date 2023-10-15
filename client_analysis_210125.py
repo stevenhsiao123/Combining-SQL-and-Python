@@ -5,7 +5,7 @@ import datetime as dt
 import glob
 import sys
 
-##### 1. 起始畫面
+##### 1. Starting Page
 now = dt.datetime.now().hour
 if 5 < now < 12:
     print('============================================\n早安，我的朋友，歡迎使用帳號使用紀錄調閱工具\n============================================\n')
